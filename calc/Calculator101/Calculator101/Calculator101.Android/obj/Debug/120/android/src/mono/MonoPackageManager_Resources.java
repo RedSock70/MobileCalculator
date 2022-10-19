@@ -5,6 +5,7 @@ public class MonoPackageManager_Resources {
 		"Calculator101.Android.dll",
 		"Calculator101.dll",
 		"FormsViewGroup.dll",
+		"MathParser.org-mXparser.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
 		"Xamarin.AndroidX.Annotation.Experimental.dll",
