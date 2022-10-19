@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NXSuN+ZwDZbtoef4Hh7iDId0RIL8LVnzp8zdDNvPuZKaEYHJwgit1XEX2mROMkqVHFAMdHfUA2PA9ET1c3n7pw==",
+  "dgSpecHash": "TiEzVWxW+ftICQOpbiicEXNIVFQAwOm2hv00A/hPj4Flk/h3NDWwJnD7Zusg0fnS0+1D09RyfI9kCNzWkgbSDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\benhu\\Desktop\\calc\\Calculator101\\Calculator101\\Calculator101.Android\\Calculator101.Android.csproj",
+  "projectFilePath": "C:\\Users\\benhu\\Desktop\\calc2\\calc\\Calculator101\\Calculator101\\Calculator101.Android\\Calculator101.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\benhu\\.nuget\\packages\\mathparser.org-mxparser\\5.0.7\\mathparser.org-mxparser.5.0.7.nupkg.sha512",
     "C:\\Users\\benhu\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\benhu\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
     "C:\\Users\\benhu\\.nuget\\packages\\xamarin.androidx.annotation\\1.2.0.1\\xamarin.androidx.annotation.1.2.0.1.nupkg.sha512",

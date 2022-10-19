@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "MathParser.org-mXparser/5.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard21/MathParser.org-mXparser.dll": {
+            "related": ".deps.json"
+          }
+        },
+        "runtime": {
+          "lib/netstandard21/MathParser.org-mXparser.dll": {
+            "related": ".deps.json"
+          }
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -175,6 +188,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "MathParser.org-mXparser": "5.0.7",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
         },
@@ -187,6 +201,19 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "MathParser.org-mXparser/5.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard21/MathParser.org-mXparser.dll": {
+            "related": ".deps.json"
+          }
+        },
+        "runtime": {
+          "lib/netstandard21/MathParser.org-mXparser.dll": {
+            "related": ".deps.json"
+          }
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -360,6 +387,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "MathParser.org-mXparser": "5.0.7",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
         },
@@ -372,6 +400,19 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "MathParser.org-mXparser/5.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard21/MathParser.org-mXparser.dll": {
+            "related": ".deps.json"
+          }
+        },
+        "runtime": {
+          "lib/netstandard21/MathParser.org-mXparser.dll": {
+            "related": ".deps.json"
+          }
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -545,6 +586,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "MathParser.org-mXparser": "5.0.7",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
         },
@@ -557,6 +599,19 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "MathParser.org-mXparser/5.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard21/MathParser.org-mXparser.dll": {
+            "related": ".deps.json"
+          }
+        },
+        "runtime": {
+          "lib/netstandard21/MathParser.org-mXparser.dll": {
+            "related": ".deps.json"
+          }
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -730,6 +785,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "MathParser.org-mXparser": "5.0.7",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
         },
@@ -743,6 +799,69 @@
     }
   },
   "libraries": {
+    "MathParser.org-mXparser/5.0.7": {
+      "sha512": "oLlcOjBdaxSVCFiBuWSI/KXcdlUhc2QfNgR9zpONae0S54ff0Q+3JfF5Vftsg03zB4gTTjmgnFx/DGmwlwgOmw==",
+      "type": "package",
+      "path": "mathparser.org-mxparser/5.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.txt",
+        "images/icon.png",
+        "lib/net35/MathParser.org-mXparser.dll",
+        "lib/net40/MathParser.org-mXparser.dll",
+        "lib/net45/MathParser.org-mXparser.dll",
+        "lib/net451/MathParser.org-mXparser.dll",
+        "lib/net452/MathParser.org-mXparser.dll",
+        "lib/net46/MathParser.org-mXparser.dll",
+        "lib/net461/MathParser.org-mXparser.dll",
+        "lib/net462/MathParser.org-mXparser.dll",
+        "lib/net47/MathParser.org-mXparser.dll",
+        "lib/net471/MathParser.org-mXparser.dll",
+        "lib/net472/MathParser.org-mXparser.dll",
+        "lib/net48/MathParser.org-mXparser.dll",
+        "lib/net5.0/MathParser.org-mXparser.deps.json",
+        "lib/net5.0/MathParser.org-mXparser.dll",
+        "lib/net6.0/MathParser.org-mXparser.deps.json",
+        "lib/net6.0/MathParser.org-mXparser.dll",
+        "lib/netcoreapp10/MathParser.org-mXparser.deps.json",
+        "lib/netcoreapp10/MathParser.org-mXparser.dll",
+        "lib/netcoreapp11/MathParser.org-mXparser.deps.json",
+        "lib/netcoreapp11/MathParser.org-mXparser.dll",
+        "lib/netcoreapp20/MathParser.org-mXparser.deps.json",
+        "lib/netcoreapp20/MathParser.org-mXparser.dll",
+        "lib/netcoreapp21/MathParser.org-mXparser.deps.json",
+        "lib/netcoreapp21/MathParser.org-mXparser.dll",
+        "lib/netcoreapp22/MathParser.org-mXparser.deps.json",
+        "lib/netcoreapp22/MathParser.org-mXparser.dll",
+        "lib/netcoreapp30/MathParser.org-mXparser.deps.json",
+        "lib/netcoreapp30/MathParser.org-mXparser.dll",
+        "lib/netcoreapp31/MathParser.org-mXparser.deps.json",
+        "lib/netcoreapp31/MathParser.org-mXparser.dll",
+        "lib/netstandard10/MathParser.org-mXparser.deps.json",
+        "lib/netstandard10/MathParser.org-mXparser.dll",
+        "lib/netstandard11/MathParser.org-mXparser.deps.json",
+        "lib/netstandard11/MathParser.org-mXparser.dll",
+        "lib/netstandard12/MathParser.org-mXparser.deps.json",
+        "lib/netstandard12/MathParser.org-mXparser.dll",
+        "lib/netstandard13/MathParser.org-mXparser.deps.json",
+        "lib/netstandard13/MathParser.org-mXparser.dll",
+        "lib/netstandard14/MathParser.org-mXparser.deps.json",
+        "lib/netstandard14/MathParser.org-mXparser.dll",
+        "lib/netstandard15/MathParser.org-mXparser.deps.json",
+        "lib/netstandard15/MathParser.org-mXparser.dll",
+        "lib/netstandard16/MathParser.org-mXparser.deps.json",
+        "lib/netstandard16/MathParser.org-mXparser.dll",
+        "lib/netstandard20/MathParser.org-mXparser.deps.json",
+        "lib/netstandard20/MathParser.org-mXparser.dll",
+        "lib/netstandard21/MathParser.org-mXparser.deps.json",
+        "lib/netstandard21/MathParser.org-mXparser.dll",
+        "lib/portable45-net45+win8+wpa81/MathParser.org-mXparser.dll",
+        "mathparser.org-mxparser.5.0.7.nupkg.sha512",
+        "mathparser.org-mxparser.nuspec"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -1057,6 +1176,7 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "Calculator101 >= 1.0.0",
+      "MathParser.org-mXparser >= 5.0.7",
       "Xamarin.Essentials >= 1.7.0",
       "Xamarin.Forms >= 5.0.0.2196"
     ]
@@ -1068,11 +1188,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\benhu\\Desktop\\calc\\Calculator101\\Calculator101\\Calculator101.iOS\\Calculator101.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\benhu\\Desktop\\calc2\\calc\\Calculator101\\Calculator101\\Calculator101.iOS\\Calculator101.iOS.csproj",
       "projectName": "Calculator101.iOS",
-      "projectPath": "C:\\Users\\benhu\\Desktop\\calc\\Calculator101\\Calculator101\\Calculator101.iOS\\Calculator101.iOS.csproj",
+      "projectPath": "C:\\Users\\benhu\\Desktop\\calc2\\calc\\Calculator101\\Calculator101\\Calculator101.iOS\\Calculator101.iOS.csproj",
       "packagesPath": "C:\\Users\\benhu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\benhu\\Desktop\\calc\\Calculator101\\Calculator101\\Calculator101.iOS\\obj\\",
+      "outputPath": "C:\\Users\\benhu\\Desktop\\calc2\\calc\\Calculator101\\Calculator101\\Calculator101.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1093,8 +1213,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\benhu\\Desktop\\calc\\Calculator101\\Calculator101\\Calculator101\\Calculator101.csproj": {
-              "projectPath": "C:\\Users\\benhu\\Desktop\\calc\\Calculator101\\Calculator101\\Calculator101\\Calculator101.csproj"
+            "C:\\Users\\benhu\\Desktop\\calc2\\calc\\Calculator101\\Calculator101\\Calculator101\\Calculator101.csproj": {
+              "projectPath": "C:\\Users\\benhu\\Desktop\\calc2\\calc\\Calculator101\\Calculator101\\Calculator101\\Calculator101.csproj"
             }
           }
         }
@@ -1103,6 +1223,10 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "MathParser.org-mXparser": {
+            "target": "Package",
+            "version": "[5.0.7, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"

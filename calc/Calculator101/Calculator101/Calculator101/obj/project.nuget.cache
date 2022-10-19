@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "a/xIoxTCM0gCoTDD1mukWEFY4OXpWlocc8kEIMS84Vnm4fTCZB8oCaidjzkycv+eXFoK/foC7MQSaR1TtXZ4RA==",
+  "dgSpecHash": "lb//zYUOIo3JQWcvoPK+Cpyar00gxtqBkKp09Wn66O6r1APpbtvaEvEzh2Tegxtb7DpMGAm8zO2hTgxxsEL03w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\benhu\\Desktop\\calc\\Calculator101\\Calculator101\\Calculator101\\Calculator101.csproj",
+  "projectFilePath": "C:\\Users\\benhu\\Desktop\\calc2\\calc\\Calculator101\\Calculator101\\Calculator101\\Calculator101.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\benhu\\.nuget\\packages\\mathparser.org-mxparser\\5.0.7\\mathparser.org-mxparser.5.0.7.nupkg.sha512",
     "C:\\Users\\benhu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\benhu\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\benhu\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",

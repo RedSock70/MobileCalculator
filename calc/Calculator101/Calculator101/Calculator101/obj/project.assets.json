@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "MathParser.org-mXparser/5.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard20/MathParser.org-mXparser.dll": {
+            "related": ".deps.json"
+          }
+        },
+        "runtime": {
+          "lib/netstandard20/MathParser.org-mXparser.dll": {
+            "related": ".deps.json"
+          }
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -83,6 +96,69 @@
     }
   },
   "libraries": {
+    "MathParser.org-mXparser/5.0.7": {
+      "sha512": "oLlcOjBdaxSVCFiBuWSI/KXcdlUhc2QfNgR9zpONae0S54ff0Q+3JfF5Vftsg03zB4gTTjmgnFx/DGmwlwgOmw==",
+      "type": "package",
+      "path": "mathparser.org-mxparser/5.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.txt",
+        "images/icon.png",
+        "lib/net35/MathParser.org-mXparser.dll",
+        "lib/net40/MathParser.org-mXparser.dll",
+        "lib/net45/MathParser.org-mXparser.dll",
+        "lib/net451/MathParser.org-mXparser.dll",
+        "lib/net452/MathParser.org-mXparser.dll",
+        "lib/net46/MathParser.org-mXparser.dll",
+        "lib/net461/MathParser.org-mXparser.dll",
+        "lib/net462/MathParser.org-mXparser.dll",
+        "lib/net47/MathParser.org-mXparser.dll",
+        "lib/net471/MathParser.org-mXparser.dll",
+        "lib/net472/MathParser.org-mXparser.dll",
+        "lib/net48/MathParser.org-mXparser.dll",
+        "lib/net5.0/MathParser.org-mXparser.deps.json",
+        "lib/net5.0/MathParser.org-mXparser.dll",
+        "lib/net6.0/MathParser.org-mXparser.deps.json",
+        "lib/net6.0/MathParser.org-mXparser.dll",
+        "lib/netcoreapp10/MathParser.org-mXparser.deps.json",
+        "lib/netcoreapp10/MathParser.org-mXparser.dll",
+        "lib/netcoreapp11/MathParser.org-mXparser.deps.json",
+        "lib/netcoreapp11/MathParser.org-mXparser.dll",
+        "lib/netcoreapp20/MathParser.org-mXparser.deps.json",
+        "lib/netcoreapp20/MathParser.org-mXparser.dll",
+        "lib/netcoreapp21/MathParser.org-mXparser.deps.json",
+        "lib/netcoreapp21/MathParser.org-mXparser.dll",
+        "lib/netcoreapp22/MathParser.org-mXparser.deps.json",
+        "lib/netcoreapp22/MathParser.org-mXparser.dll",
+        "lib/netcoreapp30/MathParser.org-mXparser.deps.json",
+        "lib/netcoreapp30/MathParser.org-mXparser.dll",
+        "lib/netcoreapp31/MathParser.org-mXparser.deps.json",
+        "lib/netcoreapp31/MathParser.org-mXparser.dll",
+        "lib/netstandard10/MathParser.org-mXparser.deps.json",
+        "lib/netstandard10/MathParser.org-mXparser.dll",
+        "lib/netstandard11/MathParser.org-mXparser.deps.json",
+        "lib/netstandard11/MathParser.org-mXparser.dll",
+        "lib/netstandard12/MathParser.org-mXparser.deps.json",
+        "lib/netstandard12/MathParser.org-mXparser.dll",
+        "lib/netstandard13/MathParser.org-mXparser.deps.json",
+        "lib/netstandard13/MathParser.org-mXparser.dll",
+        "lib/netstandard14/MathParser.org-mXparser.deps.json",
+        "lib/netstandard14/MathParser.org-mXparser.dll",
+        "lib/netstandard15/MathParser.org-mXparser.deps.json",
+        "lib/netstandard15/MathParser.org-mXparser.dll",
+        "lib/netstandard16/MathParser.org-mXparser.deps.json",
+        "lib/netstandard16/MathParser.org-mXparser.dll",
+        "lib/netstandard20/MathParser.org-mXparser.deps.json",
+        "lib/netstandard20/MathParser.org-mXparser.dll",
+        "lib/netstandard21/MathParser.org-mXparser.deps.json",
+        "lib/netstandard21/MathParser.org-mXparser.dll",
+        "lib/portable45-net45+win8+wpa81/MathParser.org-mXparser.dll",
+        "mathparser.org-mxparser.5.0.7.nupkg.sha512",
+        "mathparser.org-mxparser.nuspec"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -535,6 +611,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "MathParser.org-mXparser >= 5.0.7",
       "NETStandard.Library >= 2.0.3",
       "Xamarin.Essentials >= 1.7.0",
       "Xamarin.Forms >= 5.0.0.2196"
@@ -547,11 +624,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\benhu\\Desktop\\calc\\Calculator101\\Calculator101\\Calculator101\\Calculator101.csproj",
+      "projectUniqueName": "C:\\Users\\benhu\\Desktop\\calc2\\calc\\Calculator101\\Calculator101\\Calculator101\\Calculator101.csproj",
       "projectName": "Calculator101",
-      "projectPath": "C:\\Users\\benhu\\Desktop\\calc\\Calculator101\\Calculator101\\Calculator101\\Calculator101.csproj",
+      "projectPath": "C:\\Users\\benhu\\Desktop\\calc2\\calc\\Calculator101\\Calculator101\\Calculator101\\Calculator101.csproj",
       "packagesPath": "C:\\Users\\benhu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\benhu\\Desktop\\calc\\Calculator101\\Calculator101\\Calculator101\\obj\\",
+      "outputPath": "C:\\Users\\benhu\\Desktop\\calc2\\calc\\Calculator101\\Calculator101\\Calculator101\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -585,6 +662,10 @@
       "netstandard2.0": {
         "targetAlias": "netstandard2.0",
         "dependencies": {
+          "MathParser.org-mXparser": {
+            "target": "Package",
+            "version": "[5.0.7, )"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
